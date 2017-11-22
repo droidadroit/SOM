@@ -18,7 +18,7 @@ OpenCV for Python 2.7
 ```
 This [page](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html) explains it quite well. 
 ## Running
-Before running `lbg_random.py` for randomly initialized codebook and `lbg_split.py` for codebook initialized by splitting technique, there are a few parameters to be set.  
+Before running `SOM.py`, a few parameters are to be set.    
 ```python
 image_location
 bits_per_codevector
@@ -33,7 +33,7 @@ initial_learning_rate
 `epochs` is the number of epochs this algorithm is to be run.  
 `initial_learning_rate` is the learning rate at `t = 0`.    
 
-Once the parameters are set, enter the following command to run the script.  
+Once the parameters are decided, enter the following command to run the script.  
 `python [name of the script] [image_location] [bits_per_codevector] [block_width] [block_height] [epochs] [initial_learning_rate]`  
 
 **Please read the [wiki](https://github.com/droidadroit/SOM/wiki/SOM) for an understanding of the above terms.**  
