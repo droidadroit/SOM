@@ -37,4 +37,14 @@ Once the parameters are decided, enter the following command to run the script.
 `python [name of the script] [image_location] [bits_per_codevector] [block_width] [block_height] [epochs] [initial_learning_rate]`  
 
 **Please read the [wiki](https://github.com/droidadroit/SOM/wiki/SOM) for an understanding of the above terms.**  
-## Results
+## Results  
+For the image compressed using `SOM.py`, click [here](https://github.com/droidadroit/SOM/tree/master/Results).  
+The following parameters are used.
+```python
+block_width = 4
+block_height = 4
+epochs = 3
+initial_learning_rate = 0.7
+```  
+`bits_per_codevector` ranged from `1` to `10`.
+
