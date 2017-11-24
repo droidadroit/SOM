@@ -1,5 +1,5 @@
 # SOM
-A lenna image is compressed by vector quantization Kohonen's Self organizing map. The image is divided into blocks of size `4 x 4` and the corresponding vectors are fed to the SOM. This generates a codebook of a predetermined size which is used to generate the reconstructed image.  
+A lenna image is compressed by vector quantization using Kohonen's Self organizing map. The image is divided into blocks of size `4 x 4` and the corresponding vectors are fed to the SOM. This generates a codebook of a predetermined size which is used to generate the reconstructed image.  
 ## Getting Started
 ### Prerequisites
 ```
